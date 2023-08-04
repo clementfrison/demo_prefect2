@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "demo-prefect2"
+version = "0.1.0"
+description = ""
+authors = ["Clément <clement.frison@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo_prefect2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prefect = "^2.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
